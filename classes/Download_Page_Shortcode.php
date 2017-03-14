@@ -13,7 +13,7 @@ class Download_Page_Shortcode {
         add_action( 'wp_enqueue_scripts', array('Download_Page_Shortcode', 'enqueue_script') );
 
         $countryCode = "cz";
-        $xml = simplexml_load_file('http://'.$_SERVER['HTTP_HOST'].'/downpage.xml');
+        $xml = simplexml_load_file( trailingslashit(ABSPATH).'downpage.xml' );
 
         $output = '<div id="content" class="custom">' . PHP_EOL;
 
