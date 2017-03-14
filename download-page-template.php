@@ -1,9 +1,3 @@
-<?php
-/*
-Template Name: Download page
-*/
-?>
-
 <?php get_header(); ?>
 <div id="main">
 
