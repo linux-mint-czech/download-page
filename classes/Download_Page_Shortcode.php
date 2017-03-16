@@ -5,14 +5,7 @@
  */
 class Download_Page_Shortcode {
 
-    public function enqueue_script() {
-        wp_enqueue_script( 'download_page_script', DOWNLOAD_PAGE_PLUGIN_DIR . 'js/download-page-script.js' );
-    }
-
     public function do_shortcode( $atts, $content = NULL ) {
-        add_action( 'wp_enqueue_scripts', array('Download_Page_Shortcode', 'enqueue_script') );
-
-        $countryCode = "cz";
         $xml = simplexml_load_file( trailingslashit(ABSPATH).'downpage.xml' );
 
         $output = '<div id="content" class="custom">' . PHP_EOL;
@@ -23,7 +16,7 @@ class Download_Page_Shortcode {
 
         $output .= '<tr>' . PHP_EOL;
         $output .= '<td width="50%" class="desc"><div class="description">'.$xml->description.'</div></td>' . PHP_EOL;
-        $output .= '<td><select name="dist_version">'.self::get_all_download_options($xml).'</select></td>' . PHP_EOL;
+        $output .= '<td><select name="dist_version">'.self::get_all_download_options($xml,'cz').'</select></td>' . PHP_EOL;
         $output .= '<td class="download-td-small"><div><button id="btn64">64-bit</button></div><div><button id="btn32">32-bit</button></div></td>' . PHP_EOL;
         $output .= '</tr>' . PHP_EOL;
 
@@ -43,10 +36,11 @@ class Download_Page_Shortcode {
 
         $output .= '</div>' . PHP_EOL;
 
+        wp_enqueue_script( 'download_page_script', plugins_url( 'js/download-page-script.js', DOWNLOAD_PAGE_PLUGIN_FILE ) );
         return $output;
     }
 
-    private function get_all_download_options( $xml ) {
+    private function get_all_download_options( $xml, $countryCode ) {
         $options = '';
         foreach ( $xml->release as $release ) {
             if ( $release->build == "testing" ) {
