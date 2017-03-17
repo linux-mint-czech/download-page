@@ -36,6 +36,7 @@ class Download_Page_Shortcode {
 
         $output .= '</div>' . PHP_EOL;
 
+        wp_enqueue_style( 'download_page_css', plugins_url( 'css/style.css', DOWNLOAD_PAGE_PLUGIN_FILE ) );
         wp_enqueue_script( 'download_page_script', plugins_url( 'js/download-page-script.js', DOWNLOAD_PAGE_PLUGIN_FILE ) );
         return $output;
     }
