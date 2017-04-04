@@ -6,7 +6,7 @@
 class Download_Page_Shortcode {
 
     public function do_shortcode( $atts, $content = NULL ) {
-        $xml = simplexml_load_file( trailingslashit(ABSPATH).'downpage.xml' );
+        $xml = simplexml_load_file( DOWNLOAD_PAGE_PLUGIN_DIR.'data/downpage.xml' );
 
         $output = '<div id="content" class="custom">' . PHP_EOL;
 

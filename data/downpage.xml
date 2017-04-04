@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<releases>
+  <title></title>
+  <description>Obrazy ISO:</description>
+  <mirrorlist>
+  	<cz>ucho.ignum.cz/linuxmint-cd/linuxmint.com</cz>
+  	<sk>tux.rainside.sk/mint/iso</sk>
+  	<de>linuxmint.copahost.com</de>
+  	<it>linuxmint.mirror.garr.it/mirrors/linuxmint</it>
+  	<us>linuxfreedom.com/linuxmint/linuxmint.com</us>
+  	<at>gd.tuwien.ac.at/linux/mint/isos</at>
+  	<be>mirror.telepoint.bg/mint</be>
+  	<gb>mirror.bytemark.co.uk/linuxmint</gb>
+  	<fr>mirror.rts-informatique.fr/linuxmint/iso</fr>
+  	<pl>ftp.icm.edu.pl/pub/Linux/dist/linuxmint/isos</pl>
+  	<nl>ftp.nluug.nl/os/Linux/distr/linuxmint/iso</nl>
+  	<ch>mirror.switch.ch/ftp/mirror/linuxmint</ch>
+  	<dk>mirror.devgru.dk/mint</dk>
+  	<es>cesium.di.uminho.pt/pub/linuxmint</es>
+  	<pt>cesium.di.uminho.pt/pub/linuxmint</pt>
+  	<ie>ftp.heanet.ie/pub/linuxmint.com</ie>
+  	<ru>mirror.yandex.ru/linuxmint</ru>
+  	<hu>tux.rainside.sk/mint/iso</hu>
+  	<br>mint.c3sl.ufpr.br</br>
+  	<fi>ftp.df.lth.se/pub/linuxmint</fi>
+  	<se>ftp.df.lth.se/pub/linuxmint</se>
+  	<ke>mirror.ufs.ac.za/linuxmint</ke>
+  	<ng>mirror.ufs.ac.za/linuxmint</ng>
+  	<ne>mirror.ufs.ac.za/linuxmint</ne>
+  	<no>mirror.komsys.org/pub/linuxmint/iso</no>
+  	<in>iso-linuxmint.hnsdc.com</in>
+  	<tr>ftp.linux.org.tr/linuxmint/iso</tr>
+  	<hr>mirror.pmf.kg.ac.rs/mint/linuxmint.com</hr>
+  	<rs>mirror.pmf.kg.ac.rs/mint/linuxmint.com</rs>
+  	<cn>ftp.stust.edu.tw/pub/Linux/LinuxMint/isos</cn>
+  	<gr>ftp.ntua.gr/pub/linux/linuxmint</gr>
+  	<ua>ftp.linux.kiev.ua/pub/Linux/Mint</ua>
+  	<jp>ftp.kaist.ac.kr/linuxmint-iso</jp>
+  	<kr>ftp.kaist.ac.kr/linuxmint-iso</kr>
+  </mirrorlist>
+  <mainUrl>http://{country}/{build}/{ver}{subver}/linuxmint-{ver}{subver}-{env}-{arch}{update}.iso</mainUrl>
+  <rcUrl>http://{country}/{build}/{codename}-{ver}{subver}-{env}-{arch}-beta.iso</rcUrl>  
+  <debianUrl>http://{country}/{build}/{codename}-{ver}-{env}-{arch}.iso</debianUrl>
+  <torrentUrl>http://torrents.linuxmint.com/torrents/{codename}-{ver}{subver}-{env}-{arch}{update}{rc}.iso.torrent</torrentUrl>
+  <release torrent="yes">
+    <name>LM 18.1 Cinnamon</name>
+    <version>18</version>
+    <subversion>1</subversion>
+	<update>0</update>
+    <environment>cinnamon</environment>
+    <build>stable</build>
+	<codename>linuxmint</codename>
+    <md5>
+      <x64>b99f4b98a1b41737ded072dc1a7060ca32224e23236074790d4fc86b51009e3c</x64>
+      <x86>469b346800c71a60bd7204e03d4cc909c2dc1099f6fc1eaade320411f0fd2990</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LM 18.1 Mate</name>
+    <version>18</version>
+    <subversion>1</subversion>
+	<update>0</update>
+    <environment>mate</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>
+    <md5>
+      <x64>b41c5258c03bd8fe4ecab5f1db33f4484bd1992ec306ea4bdde25fc7d6ea2f40</x64>
+      <x86>6870a73d8e4667ed6799930be926c0e035e8596e1efc8bd399d7bd987dadae84</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LM 18.1 Xfce</name>
+    <version>18</version>
+    <subversion>1</subversion>
+	<update>0</update>
+    <environment>xfce</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>
+    <md5>
+      <x64>7dc167bd5e6e28641c8aaaf406bba46b1be2d472f85d1d86280ed80e19bb8462</x64>
+      <x86>44054c7cf5229d697570222608e352f5e247fcb8981683c871cf3c117c576e70</x86>
+    </md5>
+ </release>
+ <release torrent="yes">
+    <name>LM 18.1 KDE</name>
+    <version>18</version>
+    <subversion>1</subversion>
+	<update>0</update>
+    <environment>kde</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>    
+    <md5>
+      <x64>62e144db08600ab0be08bdd8489dfb615c401899af869fa0c29679bc866d9dc5</x64>
+      <x86>a478284343313cabc59fa8867a8e21a899a979665f273ab3a4e6a9641af284c1</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LM 17.3 Cinnamon</name>
+    <version>17</version>
+    <subversion>3</subversion>
+	  <update>0</update>
+    <environment>cinnamon</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>    
+    <md5>
+      <x64>854d0cfaa9139a898c2a22aa505b919ddde34f93b04a831b3f030ffe4e25a8e3</x64>
+      <x86>46b8a14826a53f4cacf56d1132a5184c2132f274aef8103e5e8e8cae9e1cfde0</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LM 17.3 Mate</name>
+    <version>17</version>
+    <subversion>3</subversion>
+	  <update>0</update>
+    <environment>mate</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>    
+    <md5>
+      <x64>d02bfaae749db966778276a8ae364843c1ffb37b3e1990c205f938bda367ad2a</x64>
+      <x86>506a8e88c83cddc7fadd2b7c5bf25b7e6a15f028e1628004dcd6470084430f17</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LM 17.3 KDE</name>
+    <version>17</version>
+    <subversion>3</subversion>
+	  <update>0</update>
+    <environment>kde</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>    
+    <md5>
+      <x64>aa33bf286e92556163c335b258fe5cbd9f65f4ab8490e277fed94cf20d3920e4</x64>
+      <x86>be64bf240a47df03fedca1b8aeb9357896e3dedd55446a0f87eca4f638c9d28c</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LM 17.3 Xfce</name>
+    <version>17</version>
+    <subversion>3</subversion>
+	  <update>0</update>
+    <environment>xfce</environment>
+    <build>stable</build>
+	  <codename>linuxmint</codename>    
+    <md5>
+      <x64>83c1796a37582bdea74117193cef369582d72093fd0b5278ae03016bd8685b04</x64>
+      <x86>cebff34e99b071d7237d2cfd2e24719f5a72e9e499a82d424007e850befc755b</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LMDE 2 201503 Cinnamon</name>
+    <version>201503</version>
+    <subversion>0</subversion>
+	<update>0</update>
+    <environment>cinnamon</environment>
+    <build>debian</build>   
+	<codename>lmde-2</codename> 
+    <md5>
+      <x64>5de923bbed53e65471834736c48cf3398feb32babfdb28cde641c395f3e5a359</x64>
+      <x86>eb59599ad6267acf9abd9bc0b0d66205d29cb6532153cba6547b4774311bed11</x86>
+    </md5>
+  </release>
+  <release torrent="yes">
+    <name>LMDE 2 201503 MATE</name>
+    <version>201503</version>
+    <subversion>0</subversion>
+	<update>0</update>
+    <environment>mate</environment>
+    <build>debian</build>   
+	<codename>lmde-2</codename>
+    <md5>
+      <x64>790627a60a0e164bc2584f8203b4cf61076aa40e2abdb31d8f0f327c28ddb660</x64>
+      <x86>8ed4bf70ae947482392c5f0de6d43beb869232758374d13295557183894f9dba</x86>
+    </md5>
+  </release>  
+  <release torrent="yes">
+    <name>LMDE 201204 Xfce</name>
+    <version>201204</version>
+    <subversion>0</subversion>
+	<update>0</update>
+    <environment>xfce-dvd</environment>
+    <build>debian</build>
+	<codename>linuxmint</codename>    
+    <md5>
+      <x64>d38c1a9f70aa5a129a44405e958174a9677bb67ba06a1ce99e692794d3eac885</x64>
+      <x86>cf818efb573402fd799116cd6fd75eccd1adc2c564d9c7fbf423040612de8744</x86>
+    </md5>
+  </release>
+</releases>
