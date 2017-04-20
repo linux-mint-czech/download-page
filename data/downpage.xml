@@ -147,29 +147,29 @@
     </md5>
   </release>
   <release torrent="yes">
-    <name>LMDE 2 201503 Cinnamon</name>
-    <version>201503</version>
+    <name>LMDE 2 201701 Cinnamon</name>
+    <version>201701</version>
     <subversion>0</subversion>
 	<update>0</update>
     <environment>cinnamon</environment>
     <build>debian</build>   
 	<codename>lmde-2</codename> 
     <md5>
-      <x64>5de923bbed53e65471834736c48cf3398feb32babfdb28cde641c395f3e5a359</x64>
-      <x86>eb59599ad6267acf9abd9bc0b0d66205d29cb6532153cba6547b4774311bed11</x86>
+      <x64>f5bd84c2fe3c097c1f969f9b842b3e7b575be7a6515d9c41b1554941c1598a4d</x64>
+      <x86>2acd4222bff067e4c5ab727e50ad8ceb0aaf278449e34b4b3fa342dca181411f</x86>
     </md5>
   </release>
   <release torrent="yes">
-    <name>LMDE 2 201503 MATE</name>
-    <version>201503</version>
+    <name>LMDE 2 201703 MATE</name>
+    <version>201701</version>
     <subversion>0</subversion>
 	<update>0</update>
     <environment>mate</environment>
     <build>debian</build>   
 	<codename>lmde-2</codename>
     <md5>
-      <x64>790627a60a0e164bc2584f8203b4cf61076aa40e2abdb31d8f0f327c28ddb660</x64>
-      <x86>8ed4bf70ae947482392c5f0de6d43beb869232758374d13295557183894f9dba</x86>
+      <x64>902dfd26c9a98d235a38917a7054fdcaf951e1076da3e4407d464b9213cb9977</x64>
+      <x86>31e9cb00377fea69a424b7c043de7d74613b4dae398d34482c3cea0a797f780a</x86>
     </md5>
   </release>  
   <release torrent="yes">
