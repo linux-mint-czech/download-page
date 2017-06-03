@@ -34,7 +34,6 @@
 	font-weight: bold;
 	font-size: 15px;
 	padding: 15px;
-  padding-left: 100px;
 }
 
 .download-form .download-table
@@ -79,7 +78,6 @@
 	padding: 0px 0px 0px 15px;	
 	border-bottom: 1px solid black;
 	text-align: left;
-  padding-left: 100px;
 }
 
 #hash-table tr:nth-child(2n1)>td:first-child
@@ -87,7 +85,6 @@
 	font-size: 14px;
 	font-weight: normal;
 	text-align: left;
-  padding-left: 100px;
 }
 
 #hash-table tr:nth-child(2n)
