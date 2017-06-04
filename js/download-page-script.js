@@ -1,30 +1,27 @@
 jQuery(function() {
     var data = {};
-    var combo = jQuery('select[name=dist_version]');
-    var combot = jQuery('select[name=dist_version_torrent]');
-    combo.find('option').eq(0).attr('selected', 'selected');
-    combot.find('option').eq(0).attr('selected', 'selected');
+    var combo = jQuery('select[id=dist_version]');
     
     jQuery('#btn32').click(function(e) {
-      data.url = combo.val();
+      data.url = combo.find('option:selected').data('download-url');
       data.arch = '32bit';
       doDownload(e, data);
     });
     
     jQuery('#btn64').click(function(e) {
-      data.url = combo.val();
+      data.url = combo.find('option:selected').data('download-url');
       data.arch = '64bit';
       doDownload(e, data);
     });
     
     jQuery('#btn32t').click(function(e) {
-      data.url = combot.val();
+      data.url = combo.find('option:selected').data('torrent-url');
       data.arch = '32bit';
       doDownload(e, data);
     });
     
     jQuery('#btn64t').click(function(e) {
-      data.url = combot.val();
+      data.url = combo.find('option:selected').data('torrent-url');
       data.arch = '64bit';
       doDownload(e, data);
     });

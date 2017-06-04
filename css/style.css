@@ -1,26 +1,24 @@
-.download-form {
+#download-form {
 	background: #668638;
 	border: 1px solid black;
-	width: 1010px;
+	width: 100%;
+	text-align: center;
 }
 
-.download-form h1 {
-	color: #a8e070;
-	padding-bottom: 10px;
-}
-
-.download-form tr td {
+#download-form > * {
 	vertical-align: middle;
 }
 
-.download-form .desc {
+#download-form label {
 	color: #fff;
-	padding-left: 220px;
 }
 
-.download-form button {
+#download_buttons {
+	display: inline-block;
+}
+
+#download_buttons button {
 	background: #a8e070;
-	color: #fff;
 	border: 1px solid black;
 	width: 60px;
 	margin: 2px;
@@ -36,35 +34,10 @@
 	padding: 15px;
 }
 
-.download-form .download-table
-{
-	width: 78%;
-    border: none;
-}
- 
--/* FIN! */
-.download-form .download-table select
-{
-	width: 75%;
-}
-
-.download-form .download-table tr {
-    background: transparent;
-}
-
-.download-form .download-table tr td {
-    border: none;
-}
-
-.download-td-small
-{
-	width: 48px;
-}
-
 #hash-table
 {	
 	background: #f0f0f0;	
-	width: 1010px;
+	width: 100%;
 }
 
 #hash-table tr
