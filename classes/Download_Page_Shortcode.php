@@ -17,12 +17,12 @@ class Download_Page_Shortcode {
         $output .= '</form>' . PHP_EOL;
 
         $output .= '<table id="hash-table">' . PHP_EOL;
-        $output .= '<thead><tr><th>Název</th><th>Architektura</th><th>SHA256 Hash</th></tr></thead>' . PHP_EOL;
+        $output .= '<thead><tr><th class="name">Název</th><th class="arch">Architektura</th><th class="hash">SHA256 Hash</th></tr></thead>' . PHP_EOL;
         $output .= '<tbody>'.self::get_all_hashes_table($xml).'</tbody>' . PHP_EOL;
         $output .= '</table>' . PHP_EOL;
 
         wp_enqueue_style( 'download_page_css', plugins_url( 'css/style.css', DOWNLOAD_PAGE_PLUGIN_FILE ) );
-        wp_enqueue_script( 'download_page_script', plugins_url( 'js/download-page-script.js', DOWNLOAD_PAGE_PLUGIN_FILE ) );
+        wp_enqueue_script( 'download_page_script', plugins_url( 'js/download-page-script.js', DOWNLOAD_PAGE_PLUGIN_FILE ), array('jquery') );
         return $output;
     }
 
@@ -89,7 +89,7 @@ class Download_Page_Shortcode {
             $output .= '<td rowspan="2">'.$release->name.'</td>';
             $output .= '<td>64bit</td><td>'.$md5x64.'</td>';
             $output .= '</tr>';
-            $output .= '<tr class="center">';
+            $output .= '<tr>';
             $output .= '<td>32bit</td><td>'.$md5x86.'</td>';
             $output .= '</tr>';
         }
