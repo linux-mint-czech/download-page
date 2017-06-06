@@ -2,7 +2,7 @@
 /*
 Plugin Name:    Linux Mint download page
 Plugin URI:     https://github.com/linux-mint-czech/download-page
-Version:        1.1
+Version:        1.2
 Author:         Linux-Mint-Czech.cz
 Author URI:     https://www.linux-mint-czech.cz/
 License:        GNU General Public License v2.0
