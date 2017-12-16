@@ -69,29 +69,29 @@
     </md5>
   </release>
   <release torrent="yes">
-    <name>LM 18.2 Xfce</name>
+    <name>LM 18.3 Xfce</name>
     <version>18</version>
-    <subversion>2</subversion>
+    <subversion>3</subversion>
     <update>0</update>
     <environment>xfce</environment>
     <build>stable</build>
     <codename>linuxmint</codename>
     <md5>
-      <x64>2dcf4ccd76657d42c7e4f14e9e237da9ab0a07028b5ba63a95262a7052f96e9b</x64>
-      <x86>c4514d8d97f0a54219c1f9ce2911f2544f6ae781aae6f49fdef904e7360ae46b</x86>
+      <x64>a78be201c766133d35a39b0555e00503f5fe47ff2bb17d6e27953397f44dcf09</x64>
+      <x86>ab75288d9ba54cd7f614a2aadae22df2157e297cc45af46ec146086864e02f08</x86>
     </md5>
  </release>
  <release torrent="yes">
-    <name>LM 18.2 KDE</name>
+    <name>LM 18.3 KDE</name>
     <version>18</version>
-    <subversion>2</subversion>
+    <subversion>3</subversion>
     <update>0</update>
     <environment>kde</environment>
     <build>stable</build>
     <codename>linuxmint</codename>    
     <md5>
-      <x64>9173901fbead7d2ece2454f8f51dbb375e1dfdfc74cfaef450342a3144955fe1</x64>
-      <x86>6df26cf2e7dacfdcdc5ab2b776505d9999304748f48fa3a4e1ef3463fcf04631</x86>
+      <x64>f110cfce59853eec018a2be0f23565d46b67848194e99f91ed701ea9be672420</x64>
+      <x86>535dbb3ef4f7db6b9584d5093d6ae05a861f7f6e03fee487c76189bc5248de20</x86>
     </md5>
   </release>
   <release torrent="yes">
