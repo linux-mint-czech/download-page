@@ -147,16 +147,16 @@
     </md5>
   </release>
   <release torrent="yes">
-    <name>LMDE 2 201701 Cinnamon</name>
-    <version>201701</version>
+    <name>LMDE 3 201808 Cinnamon</name>
+    <version>201808</version>
     <subversion>0</subversion>
     <update>0</update>
     <environment>cinnamon</environment>
     <build>debian</build>   
-    <codename>lmde-2</codename>
+    <codename>lmde-3</codename>
     <md5>
-      <x64>f5bd84c2fe3c097c1f969f9b842b3e7b575be7a6515d9c41b1554941c1598a4d</x64>
-      <x86>2acd4222bff067e4c5ab727e50ad8ceb0aaf278449e34b4b3fa342dca181411f</x86>
+      <x64>90c15a08829366f7cc47b92a9520edca99a3b02979d008685a54e6db4d29cff3</x64>
+      <x86>be20821ea95acfa920f4dd75e71da2c4005245a0102c003de1f61ab9e4a4018f</x86>
     </md5>
   </release>
   <release torrent="yes">
