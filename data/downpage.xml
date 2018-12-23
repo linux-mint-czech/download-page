@@ -43,42 +43,42 @@
   <debianUrl>http://{country}/{build}/{codename}-{ver}-{env}-{arch}.iso</debianUrl>
   <torrentUrl>http://torrents.linuxmint.com/torrents/{codename}-{ver}{subver}-{env}-{arch}{update}{rc}.iso.torrent</torrentUrl>
   <release torrent="yes">
-    <name>LM 19 Cinnamon</name>
+    <name>LM 19.1 Cinnamon</name>
     <version>19</version>
-    <subversion>0</subversion>
+    <subversion>1</subversion>
     <update>0</update>
     <environment>cinnamon</environment>
     <build>stable</build>
     <codename>linuxmint</codename>
     <md5>
-      <x64>41dd237ed33a4cc5865ef52cd92b479cded0a9341956de4d6adb794e9c1c10a9</x64>
-      <x86>2233bd95ca6b0c605d02b76dcc678c63253f9f14f5c1539f82d412e0dce8f981</x86>
+      <x64>bb4b3ad584f2fec1d91ad60fe57ad4044e5c0934a5e3d229da129c9513862eb0</x64>
+      <x86>b580052c4652ac8f1cbcd9057a0395642a722707d17e1a77844ff7fb4db36b70</x86>
     </md5>
   </release>
   <release torrent="yes">
-    <name>LM 19 Mate</name>
+    <name>LM 19.1 Mate</name>
     <version>19</version>
-    <subversion>0</subversion>
+    <subversion>1</subversion>
     <update>0</update>
     <environment>mate</environment>
     <build>stable</build>
     <codename>linuxmint</codename>
     <md5>
-      <x64>a5f9893d2960eaea1a4d35a86c1d2a627a2a8ee3e578f01514ab75c8ef323a8d</x64>
-      <x86>499602180c071505ac7aa0fc69cb01363f98179e7930fb401a62838959224d7c</x86>
+      <x64>5bc212d73800007c7c3605f03c9d5988ad99f1be9fc91024049ea4b638c33bb4</x64>
+      <x86>ca86885e2384373f8fbb2121e2abb6298674e37fc206d3f23661ab5f1f523aba</x86>
     </md5>
   </release>
   <release torrent="yes">
-    <name>LM 19 Xfce</name>
+    <name>LM 19.1 Xfce</name>
     <version>19</version>
-    <subversion>0</subversion>
+    <subversion>1</subversion>
     <update>0</update>
     <environment>xfce</environment>
     <build>stable</build>
     <codename>linuxmint</codename>
     <md5>
-      <x64>772786adad318c0571ff621fe13e66ebde1366557d0579bd045a3c649ffb917a</x64>
-      <x86>54daa1c9912b4d77c0c90f884abfa09b7f9d6a0992d3c404d8dd782333d7659a</x86>
+      <x64>7b53b29a34cfef4ddfe24dac27ee321c289dc2ed8b0c1361666bbee0f6ffa9f4</x64>
+      <x86>039d619935c2993e589705e49068a6fa4dc4f9a5eb82470bc7998c9626259416</x86>
     </md5>
  </release>
  <release torrent="yes">
