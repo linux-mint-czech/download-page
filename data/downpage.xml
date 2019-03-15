@@ -95,58 +95,6 @@
     </md5>
   </release>
   <release torrent="yes">
-    <name>LM 17.3 Cinnamon</name>
-    <version>17</version>
-    <subversion>3</subversion>
-    <update>0</update>
-    <environment>cinnamon</environment>
-    <build>stable</build>
-    <codename>linuxmint</codename>
-    <md5>
-      <x64>854d0cfaa9139a898c2a22aa505b919ddde34f93b04a831b3f030ffe4e25a8e3</x64>
-      <x86>46b8a14826a53f4cacf56d1132a5184c2132f274aef8103e5e8e8cae9e1cfde0</x86>
-    </md5>
-  </release>
-  <release torrent="yes">
-    <name>LM 17.3 Mate</name>
-    <version>17</version>
-    <subversion>3</subversion>
-    <update>0</update>
-    <environment>mate</environment>
-    <build>stable</build>
-    <codename>linuxmint</codename>
-    <md5>
-      <x64>d02bfaae749db966778276a8ae364843c1ffb37b3e1990c205f938bda367ad2a</x64>
-      <x86>506a8e88c83cddc7fadd2b7c5bf25b7e6a15f028e1628004dcd6470084430f17</x86>
-    </md5>
-  </release>
-  <release torrent="yes">
-    <name>LM 17.3 KDE</name>
-    <version>17</version>
-    <subversion>3</subversion>
-    <update>0</update>
-    <environment>kde</environment>
-    <build>stable</build>
-    <codename>linuxmint</codename>
-    <md5>
-      <x64>aa33bf286e92556163c335b258fe5cbd9f65f4ab8490e277fed94cf20d3920e4</x64>
-      <x86>be64bf240a47df03fedca1b8aeb9357896e3dedd55446a0f87eca4f638c9d28c</x86>
-    </md5>
-  </release>
-  <release torrent="yes">
-    <name>LM 17.3 Xfce</name>
-    <version>17</version>
-    <subversion>3</subversion>
-    <update>0</update>
-    <environment>xfce</environment>
-    <build>stable</build>
-    <codename>linuxmint</codename>
-    <md5>
-      <x64>83c1796a37582bdea74117193cef369582d72093fd0b5278ae03016bd8685b04</x64>
-      <x86>cebff34e99b071d7237d2cfd2e24719f5a72e9e499a82d424007e850befc755b</x86>
-    </md5>
-  </release>
-  <release torrent="yes">
     <name>LMDE 3 201808 Cinnamon</name>
     <version>201808</version>
     <subversion>0</subversion>
@@ -157,32 +105,6 @@
     <md5>
       <x64>90c15a08829366f7cc47b92a9520edca99a3b02979d008685a54e6db4d29cff3</x64>
       <x86>be20821ea95acfa920f4dd75e71da2c4005245a0102c003de1f61ab9e4a4018f</x86>
-    </md5>
-  </release>
-  <release torrent="yes">
-    <name>LMDE 2 201701 MATE</name>
-    <version>201701</version>
-    <subversion>0</subversion>
-    <update>0</update>
-    <environment>mate</environment>
-    <build>debian</build>   
-    <codename>lmde-2</codename>
-    <md5>
-      <x64>902dfd26c9a98d235a38917a7054fdcaf951e1076da3e4407d464b9213cb9977</x64>
-      <x86>31e9cb00377fea69a424b7c043de7d74613b4dae398d34482c3cea0a797f780a</x86>
-    </md5>
-  </release>  
-  <release torrent="yes">
-    <name>LMDE 201204 Xfce</name>
-    <version>201204</version>
-    <subversion>0</subversion>
-    <update>0</update>
-    <environment>xfce-dvd</environment>
-    <build>debian</build>
-    <codename>linuxmint</codename>
-    <md5>
-      <x64>d38c1a9f70aa5a129a44405e958174a9677bb67ba06a1ce99e692794d3eac885</x64>
-      <x86>cf818efb573402fd799116cd6fd75eccd1adc2c564d9c7fbf423040612de8744</x86>
     </md5>
   </release>
 </releases>
